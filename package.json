@@ -1,6 +1,6 @@
 {
   "name": "payapi-noodlejs",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "noodle is a proxy server which serves for cross domain data extraction from web documents for any client. This is forked from git://github.com/dharmafly/noodle.git solely to make dependency security upgrades.",
   "main": "./lib/noodle",
   "bin": {
@@ -21,7 +21,7 @@
     "feedparser": "0.10.7",
     "moment": "2.17.1",
     "cheerio": "0.10.1",
-    "request": "2.11.4",
+    "request": "2.81.0",
     "q": "0.8.9",
     "xml2json": "^0.5.1",
     "underscore": "1.4.2",
