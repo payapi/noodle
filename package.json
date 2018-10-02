@@ -1,11 +1,12 @@
 {
-  "name": "noodlejs",
-  "version": "0.3.4",
-  "description": "noodle is a proxy server which serves for cross domain data extraction from web documents for any client.",
+  "name": "payapi-noodlejs",
+  "version": "0.3.6",
+  "description": "noodle is a proxy server which serves for cross domain data extraction from web documents for any client. This is forked from git://github.com/dharmafly/noodle.git solely to make dependency security upgrades.",
   "main": "./lib/noodle",
   "bin": {
     "noodle": "./bin/noodle-server"
   },
+  "author": "payapi.io",
   "dependencies": {
     "connect": "~3.5.0",
     "connect-ratelimit": "0.0.5",
@@ -17,7 +18,6 @@
     "q": "0.8.9",
     "xml2json": "^0.5.1",
     "underscore": "1.4.2",
-    "mocha": "1.7.4",
     "chai": "1.4.2",
     "colors": "0.6.0-1"
   },
@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/dharmafly/noodle.git"
+    "url": "git://github.com/payapi/noodle.git"
   },
   "keywords": [
     "scraper",
@@ -45,6 +45,5 @@
     "web service",
     "rate limit"
   ],
-  "author": "Dharmafly",
   "license": "BSD"
 }

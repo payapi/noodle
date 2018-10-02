@@ -1,7 +1,12 @@
-[noodle](http://noodlejs.com) 
+[noodle](http://noodlejs.com)
 =============================
 
 noodle is a Node.js server and module for querying and scraping data from web documents. It features:
+
+Note
+----
+
+This repository is forked from git@github.com:dharmafly/noodle.git purely to upgrade vulnerable dependencies.
 
 ```JSON
 {
@@ -56,7 +61,7 @@ Noodle as a node module
 -----------------------
 
 If you are interested in the node module just run ```npm install noodlejs```,
-require it and check out the [noodle api](http://noodlejs.com/reference/#noodle-as-node-module)  
+require it and check out the [noodle api](http://noodlejs.com/reference/#noodle-as-node-module)
 
 ```javascript
 var noodle = require('noodlejs');
@@ -74,10 +79,10 @@ noodle.query({
 Tests
 -----
 
-The noodle tests create a temporary server on port `8889` which the automated 
-tests tell noodle to query against. 
+The noodle tests create a temporary server on port `8889` which the automated
+tests tell noodle to query against.
 
-To run tests you can use the provided binary *from the noodle package 
+To run tests you can use the provided binary *from the noodle package
 root directory*:
 
     $ cd noodle
@@ -88,5 +93,5 @@ Contribute
 
 Contributors and suggestions welcomed.
 
-- [http://noodlejs.com](http://noodlejs.com)  
-- [https://github.com/dharmafly/noodle](https://github.com/dharmafly/noodle)  
+- [http://noodlejs.com](http://noodlejs.com)
+- [https://github.com/dharmafly/noodle](https://github.com/dharmafly/noodle)
